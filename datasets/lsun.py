@@ -15,7 +15,7 @@ class LSUNClass(VisionDataset):
         super(LSUNClass, self).__init__(
             root, transform=transform, target_transform=target_transform
         )
-
+        print(root)
         self.env = lmdb.open(
             root,
             max_readers=1,
