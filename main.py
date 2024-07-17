@@ -11,8 +11,6 @@ import torch.utils.tensorboard as tb
 
 from runners.diffusion import Diffusion
 
-from matplotlib import pyplot as plt
-
 torch.set_printoptions(sci_mode=False)
 
 
